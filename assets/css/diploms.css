@@ -1,0 +1,39 @@
+.diploms {
+    background: url("../images/background3.png");
+    background-size: cover;
+    background-position: center;
+    
+    padding: 4rem 8rem;
+}
+
+.diploms > .row > .col {
+    margin: 2rem;
+}
+
+.diploms img {
+    opacity: 0.9;
+    border-radius: 5px;
+    transition: 0.1s !important;
+}
+
+.diploms img:hover {
+    opacity: 1;
+    border-radius: 0px;
+    transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+    .diploms {
+        padding: 1rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .diploms {
+        padding: 1rem 0.5rem;
+    }
+
+    .diploms > .row > .col {
+        margin: 5px;
+    }
+}

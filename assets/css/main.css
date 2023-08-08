@@ -1,0 +1,99 @@
+* {
+    font-family: Montserrat;
+    font-size: 20px;
+    box-sizing: border-box;
+
+    transition: color .1s !important;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: var(--font-color);
+}
+
+body {
+    background: var(--background);
+    background-image: url("../images/background1.png");
+    overflow-x: hidden;
+}
+
+main {
+    padding-bottom: 5rem;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #1e90ff;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.img-width-fix {
+    position: relative;
+    width: 100%;
+}
+
+.portfolio-button {
+    color: white;
+    padding: 1rem 1.5rem;
+    background: var(--button-background);
+    box-shadow: 0px 5px 20px var(--button-shadow);
+    border-radius: .5rem;
+}
+
+.slide-rl {
+    animation: slide-rl .5s ease-in-out 0s 1;
+}
+
+.slide-lr {
+    animation: slide-lr .5s ease-in-out 0s 1;
+}
+
+.slide-tb {
+    animation: slide-tb .5s ease-in-out 0s 1;
+}
+
+@keyframes slide-tb {
+    from {
+        transform: translateY(-150%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-lr {
+    from {
+        transform: translateX(-150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-rl {
+    from {
+        transform: translateX(150%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media(max-width: 375px) {
+    * {
+        word-break: break-all;
+    }
+
+    table tr th {
+        word-break: normal !important;
+    }
+}

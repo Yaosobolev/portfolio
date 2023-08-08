@@ -1,0 +1,22 @@
+.socials {
+    position: fixed;
+    right: 0px;
+    top: 10%;
+
+    background-color: var(--background-block);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.socials img {
+    width: 32px;
+}
+
+.socials__copy {
+    cursor: pointer;
+}
+
+.socials__copy .socials__copy-data {
+    display: none;
+}

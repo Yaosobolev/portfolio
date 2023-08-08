@@ -1,0 +1,37 @@
+.notifies {
+    position: fixed;
+    right: 0px;
+    bottom: 2rem;
+
+    z-index: 301;
+}
+
+.notify {
+    background-color: #2ecc71;
+    margin: 1rem 0;
+    color: white;
+    width: 300px;
+
+    animation: show-notify 1s 1 0s;
+}
+.notify__header {
+    background-color: #27ae60;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+.notify__content {
+    padding: 0.5rem 1rem;
+}
+
+@keyframes show-notify {
+    from {
+        transform: translate(100%, 100%);
+    }
+    50% {
+        transform: translate(0, 100%);
+    }
+    to {
+        transform: translate(0, 0);
+    }
+}

@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+}
+
+table th {
+    text-align: left;
+    vertical-align: top;
+}
+
+table td {
+    text-align: left;
+}
+
+table th, table td {
+    padding: 0.25rem;
+}
+
+table tr th {
+    padding-right: 2rem;
+    width: min-content;
+}
+
+table tr td ul {
+    margin: 0px;
+}
+
+@media (max-width: 585px) {
+    table tr {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,11 @@
+:root {
+    --font-color: black;
+    --background: #e1e4eb;
+    --background-block: white;
+    --button-background: linear-gradient(to right, #ff6a00, #ee0979);
+    --button-shadow: #ef10717c;
+    --box-shadow: rgb(34 41 47 / 10%);
+
+    --image-viewer-background: #000000a4;
+    --image-cross-color: white;
+}
